@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="time">
+        <item name="day">day</item>
+        <item name="week">week</item>
+        <item name="month">month</item>
+        <item name="year">year</item>
+    </array>
+</resources>

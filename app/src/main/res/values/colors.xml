@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="indianRed">#D45D5D</color>
+    <color name="deepChampagne">#EBDBA0</color>
+    <color name="mediumAquamarine">#74CC9F</color>
+    <color name="celestialBlue">#4E9DBA</color>
+
+    <color name="barbiePink">#df2789</color>
+    <color name="arylideYellow">#e8d960</color>
+    <color name="isabelline">#f7f6ec</color>
+    <color name="deepLilac">#8858bf</color>
+    <color name="verdigris">#53aaad</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="moonstoneBlue">#66BBC9</color>
+    <color name="ashGray">#BDDC46</color>
+    <color name="purpleLight">#ED8CE9</color>
+    <color name="spanishPink">#F37D86</color>
+    <color name="pearl">#F1C97A</color>
+</resources>
