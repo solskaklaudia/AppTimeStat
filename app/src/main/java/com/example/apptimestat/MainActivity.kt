@@ -1,5 +1,6 @@
 package com.example.apptimestat
 
+import android.app.AlertDialog
 import android.app.usage.UsageStats
 import android.app.usage.UsageStatsManager
 import android.content.Context
@@ -9,6 +10,7 @@ import android.os.Bundle
 import android.provider.Settings
 import android.view.View
 import android.widget.Spinner
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.coroutines.CoroutineScope
@@ -74,10 +76,6 @@ class MainActivity : AppCompatActivity() {
         // Create Service
         val service = retrofit.create(APIService::class.java)
 
-
-        // Create JSON using JSONObject
-
-
         // Get phone id
         val userId: String = Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
 
@@ -86,10 +84,10 @@ class MainActivity : AppCompatActivity() {
 
         val apps = JSONArray()
 
-        for(stat in stats) {
+        for (stat in stats) {
             val useTime = stat.totalTimeVisible / 60 / 1000
 
-            if(useTime > 0){
+            if (useTime > 0) {
                 val app = JSONObject()
                 app.put("name", stat.packageName.substringAfterLast("."))
                 app.put("use_time", useTime)
@@ -112,6 +110,19 @@ class MainActivity : AppCompatActivity() {
             // Do the POST request and get response
             val response = service.sendData(requestBody)
         }
+
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Data sent")
+        builder.setMessage("Your application usage data have been sent.")
+        builder.setNeutralButton("Ok") { dialog, which ->
+            Toast.makeText(
+                applicationContext,
+                "data sent", Toast.LENGTH_SHORT
+            ).show()
+        }
+        builder.show()
+
+
     }
 }
 
