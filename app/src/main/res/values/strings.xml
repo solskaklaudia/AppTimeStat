@@ -5,4 +5,5 @@
     <string name="button_table">Display a table</string>
     <string name="chart_title">Top 5 apps average time usage in the last "</string>
     <string name="table_title">Top 10 apps statistics usage in the last "</string>
+    <string name="send_data">Send data</string>
 </resources>
