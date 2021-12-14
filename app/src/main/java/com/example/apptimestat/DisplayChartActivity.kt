@@ -81,7 +81,12 @@ class DisplayChartActivity : AppCompatActivity() {
                         R.color.ashGray,
                         R.color.purpleLight,
                         R.color.spanishPink,
-                        R.color.pearl
+                        R.color.pearl,
+                        R.color.arylideYellow,
+                        R.color.barbiePink,
+                        R.color.deepChampagne,
+                        R.color.indianRed,
+                        R.color.deepLilac
                     )
 
                     val pieChartView = findViewById<PieChartView>(R.id.chart)
