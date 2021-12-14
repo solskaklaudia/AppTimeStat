@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
 
         val jsonObject = JSONObject()
         jsonObject.put("user_id", userId)
-        jsonObject.put("date", LocalDate.now()) // LocalDate.now()
+        jsonObject.put("date", LocalDate.now())
         jsonObject.put("apps", apps)
 
         // Convert JSONObject to String
