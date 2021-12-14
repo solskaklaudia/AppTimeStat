@@ -42,7 +42,7 @@
             android:layout_width="87dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Current avg usage [hours]"
+            android:text="Current avg usage [minutes per day]"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textStyle="bold" />
@@ -72,24 +72,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow">
 
         <TextView
+            android:id="@+id/name1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="facebook"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="15"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-20"
             android:textAlignment="center" />
     </TableRow>
 
@@ -109,24 +109,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow2">
 
         <TextView
+            android:id="@+id/name2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="snapchat"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="20"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+10"
             android:textAlignment="center" />
     </TableRow>
 
@@ -145,24 +145,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow3">
 
         <TextView
+            android:id="@+id/name3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="tiktok"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="23"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+12"
             android:textAlignment="center" />
     </TableRow>
 
@@ -182,24 +182,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow4">
 
         <TextView
+            android:id="@+id/name4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="camera"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-4"
             android:textAlignment="center" />
     </TableRow>
 
@@ -218,24 +218,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow5">
 
         <TextView
+            android:id="@+id/name5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="messenger"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="50"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+45"
             android:textAlignment="center" />
     </TableRow>
 
@@ -255,24 +255,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow6">
 
         <TextView
+            android:id="@+id/name6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="gmail"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+5"
             android:textAlignment="center" />
     </TableRow>
 
@@ -291,24 +291,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow7">
 
         <TextView
+            android:id="@+id/name7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="discord"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="15"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-20"
             android:textAlignment="center" />
     </TableRow>
 
@@ -328,24 +328,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow8">
 
         <TextView
+            android:id="@+id/name8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="music"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="33"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+18"
             android:textAlignment="center" />
     </TableRow>
 
@@ -364,24 +364,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow9">
 
         <TextView
+            android:id="@+id/name9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="calendar"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+2"
             android:textAlignment="center" />
     </TableRow>
 
@@ -400,24 +400,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tableRow10">
 
         <TextView
+            android:id="@+id/name10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="bank"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/avg10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="3"
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/comp10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-12"
             android:textAlignment="center" />
 
     </TableRow>

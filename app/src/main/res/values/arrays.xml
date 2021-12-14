@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="time">
-        <item name="day">day</item>
-        <item name="week">week</item>
-        <item name="month">month</item>
-        <item name="year">year</item>
+        <item name="day" value="1">day</item>
+        <item name="week" value="7">week</item>
+        <item name="month" value="30">month</item>
+        <item name="year" value="356">year</item>
     </array>
 </resources>
